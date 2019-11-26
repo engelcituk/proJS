@@ -1,5 +1,5 @@
 /* Este codigo se puede ejecutar en la consola, mediante node con el comando => node cadenaPromesas.js
-Ejercicio para encadenar multiples promesas
+Ejercicio para encadenar  multiples promesas
 */
 function calcular() {
     return new Promise(function (resolve, reject) {
