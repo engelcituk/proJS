@@ -1,6 +1,7 @@
+/* Este codigo se puede ejecutar en la consola, mediante node con el comando => node promesa.js
+Ejercicio de una promesa
+*/
 const request = require('request');
-
-
 
 function leer(url){
     return new Promise( function (resolve, reject) {

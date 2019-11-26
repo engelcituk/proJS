@@ -1,3 +1,6 @@
+/* Este codigo funcionan en el index.html aqui se trabaja con las funciones asincronas y manejo de errores con try catch
+*/
+
 (async function() {
     
     let resultado = await new Promise((resolve, reject) => setTimeout(resolve, 500, 5));

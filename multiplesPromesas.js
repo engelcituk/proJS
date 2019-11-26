@@ -1,4 +1,6 @@
-// para resolver multiples promesas
+/* Este codigo se puede ejecutar en la consola, mediante node con el comando => node multiplesPromesas.js
+Ejercicio para resolver multiples promesas
+*/
 let promesa1 = new Promise( (resolve, reject) => setTimeout( resolve, 500, 'hola mundo'));
 
 let promesa2 = new Promise( (resolve, reject) => setTimeout( resolve, 600, 'segundo hola mundo'));
